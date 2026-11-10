@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A crescent moon over drifting Z's, on a night-blue tile. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:fillColor="#101B2D" android:pathData="M0,0h320v180h-320z" />
+    <!-- moon -->
+    <path android:fillColor="#E9E4FF"
+        android:pathData="M120,36 A46,46 0,1 0 166,112 A36,36 0,1 1 120,36 Z" />
+    <!-- Z's -->
+    <path android:fillColor="#3FA7D6" android:pathData="M196,60h44l-44,34h44v10h-58l44,-34h-30z" />
+    <path android:fillColor="#3FA7D6" android:pathData="M232,104h32l-32,25h32v8h-42l32,-25h-22z" />
+    <!-- stars -->
+    <path android:fillColor="#FFFFFF" android:pathData="M262,44m-3,0a3,3 0,1 1 6,0a3,3 0,1 1 -6,0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M70,120m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M286,120m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+</vector>

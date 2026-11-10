@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hvile</string>
+    <string name="settings_title">Hvile</string>
+    <string name="settings_hint">Venstre/Højre justerer, Op/Ned går i kolonnen og krydser i toppen. OK bekræfter.</string>
+    <string name="status_service_on">Vagttjeneste: til.</string>
+    <string name="status_service_off">Vagttjeneste: FRA (kør install-scriptet, og slå den til).</string>
+    <string name="status_overlay_on">Overlay-tilladelse: til.</string>
+    <string name="status_overlay_off">Overlay-tilladelse: FRA (advarslen kan ikke vises).</string>
+    <string name="status_alarm_off"> Præcise alarmer: fra (tiden kan skride).</string>
+    <string name="col_idle">Inaktivitet</string>
+    <string name="col_screen">Skærmtid</string>
+    <string name="enabled_on">Til</string>
+    <string name="enabled_off">Fra</string>
+    <string name="minutes_row">Tid: %1$d min</string>
+    <string name="warn_seconds_row">Advarsel: %1$d s</string>
+    <string name="warn_off">Advarsel: fra</string>
+    <string name="test_overlay">Vis advarslen nu</string>
+    <string name="sleep_now">Sov nu</string>
+    <string name="still_title">Ser du stadig TV?</string>
+    <string name="still_title_screen">Tid til en pause?</string>
+    <string name="still_reason_idle">Ingen tryk i %1$d min</string>
+    <string name="still_reason_screen">%1$d min skærmtid er gået</string>
+    <string name="still_countdown">%1$d:%2$02d</string>
+    <string name="still_yes">Ja, jeg ser med</string>
+    <string name="still_no">Nej, sluk</string>
+    <string name="service_label">Hvile</string>
+    <string name="service_description">Nulstiller en timer ved hvert tryk på fjernbetjeningen og slukker TV\'et efter stilletid. Læser ikke skærmen.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idle Sleep</string>
+    <string name="settings_title">Idle Sleep</string>
+    <string name="settings_hint">Left/Right adjusts, Up/Down walks a column and wraps across the top. OK confirms.</string>
+    <string name="status_service_on">Watch service: on.</string>
+    <string name="status_service_off">Watch service: OFF (run the install script, then enable it).</string>
+    <string name="status_overlay_on">Overlay permission: on.</string>
+    <string name="status_overlay_off">Overlay permission: OFF (the warning cannot show).</string>
+    <string name="status_alarm_off"> Exact alarms: off (timing may slip).</string>
+    <string name="col_idle">Inactivity</string>
+    <string name="col_screen">Screen time</string>
+    <string name="enabled_on">On</string>
+    <string name="enabled_off">Off</string>
+    <string name="minutes_row">Tid: %1$d min</string>
+    <string name="warn_seconds_row">Advarsel: %1$d s</string>
+    <string name="warn_off">Warning: off</string>
+    <string name="test_overlay">Show the warning now</string>
+    <string name="sleep_now">Sleep now</string>
+    <string name="still_title">Still watching?</string>
+    <string name="still_title_screen">Time for a break?</string>
+    <string name="still_reason_idle">No presses for %1$d min</string>
+    <string name="still_reason_screen">%1$d min of screen time reached</string>
+    <string name="still_countdown">%1$d:%2$02d</string>
+    <string name="still_yes">Yes, still watching</string>
+    <string name="still_no">No, turn off</string>
+    <string name="service_label">Idle Sleep</string>
+    <string name="service_description">Resets a timer on every remote press and sleeps the TV after quiet time. It does not read the screen.</string>
+
+    <style name="Still" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>
